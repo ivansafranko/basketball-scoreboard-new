@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="scoreboard">
+                <h3>HOME</h3>
+                <div class="monitor">
+                    <span id="scoreHome-el"></span>
+                </div>
+                <div class="scores">
+                    <button class="plusButton" onclick="addOneHome()">+1</button>
+                    <button class="plusButton" onclick="addTwoHome()">+2</button>
+                    <button class="plusButton" onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            
+                
+                <div class="scoreboard">
+                <h3>GUEST</h3>
+                <div class="monitor">
+                     <span id="scoreAway-el"></span>
+                </div>
+                <div class="scores">
+                    <button class="plusButton" onclick="addOneAway()">+1</button>
+                    <button class="plusButton" onclick="addTwoAway()">+2</button>
+                    <button class="plusButton" onclick="addThreeAway()">+3</button>
+                </div>
+            </div>
+            </div>
+        
+        
+        <div class="reset-container">
+            <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
